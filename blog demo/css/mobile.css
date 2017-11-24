@@ -1,0 +1,43 @@
+.side-bar{
+  position:relative;
+  width:100%;
+  float: none;
+
+}
+.main{
+  width:100%;
+  padding-left: 5px;
+  padding-right: 5px;
+
+
+}
+
+.article-list, .article{
+  margin-right:0;
+}
+
+body{
+  background: #454545;
+}
+.side-bar .nav,
+.side-bar .tag-list{
+  text-align: center;
+  display: none;
+}
+#menu-checkbox:checked ~.nav{
+  display: block;
+}
+#menu-checkbox:checked ~.tag-list{
+  display: block;
+}
+
+
+#menu-toggle{
+  display: block;
+  position: absolute;
+  top:10px;
+  right:0;
+  font-size:16px;
+  font-weight: 100;
+  color:#rgba(255, 255, 255, 0.7);
+}
